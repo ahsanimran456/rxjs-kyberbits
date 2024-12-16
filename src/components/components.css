@@ -1,0 +1,75 @@
+.herosection-text {
+    display: inline-block; 
+    background-image: conic-gradient(
+      from 180deg at 50% 50%, 
+      #ff98e2, 
+      #ffc876 35.77deg, 
+      #79fff7 153.75deg, 
+      #9f53ff 258.75deg, 
+      #ff98e2 360deg
+    );
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent; 
+    -webkit-text-fill-color: transparent;
+    line-height: inherit;
+  }
+
+
+
+
+/* Orbit Animation */
+@keyframes orbit {
+  0% {
+      transform: rotate(0deg) translate(var(--radius)) rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg) translate(var(--radius)) rotate(-360deg);
+  }
+}
+
+/* Container Styling */
+.orbiting-container {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  margin: 0px auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Orbit Paths */
+.orbit-path {
+  position: absolute;
+  border: 3px solid gray;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.orbit-path.outer {
+  width: 320px;
+  height: 320px;
+  top: 40px;
+  left: 40px;
+}
+
+.orbit-path.inner {
+  width: 180px;
+  height: 180px;
+  top: 110px;
+  left: 110px;
+}
+
+/* Orbiting Items */
+.orbiting-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  animation: orbit var(--duration) linear infinite;
+  animation-delay: var(--delay);
+  transform-origin: top left;
+  margin-top: -20px; /* Center adjustment */
+  margin-left: -20px;
+}
