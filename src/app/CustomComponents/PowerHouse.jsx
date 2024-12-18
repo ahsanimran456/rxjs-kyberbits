@@ -12,7 +12,7 @@ const PowerHouse = () => {
     <section className="max-w-screen-xl mx-auto flex items-center w-full text-white mt-24">
       {/* Left Side: Gradient Text & Buttons */}
       <div className="w-[50%] flex  " style={{marginTop:'6rem'}}>
-        <div className="w-full max-w-[600px] h-auto">
+        <div className="w-full max-w-[600px] ">
           <MobileFrame src={mobile}/>
         </div>
       </div>

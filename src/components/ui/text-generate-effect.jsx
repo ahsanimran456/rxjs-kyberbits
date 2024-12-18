@@ -19,7 +19,7 @@ export const TextGenerateEffect = ({
       animate(
         "span",
         { opacity: 1 },
-        { duration: duration || 1, delay: stagger(0.2) }
+        { duration: duration, delay: stagger(0.1) }
       );
     }
   }, [isInView]); // Trigger only when isInView changes

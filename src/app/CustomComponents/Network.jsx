@@ -9,7 +9,7 @@ const Network = () => {
     const words = `The KyberBits Network's initiative for banks and financial institutions is a significant step toward modernizing the global financial landscape.`
 
     return (
-        <section className="max-w-screen-xl mx-auto flex items-center w-full h-screen text-white mt-24">
+        <section className="max-w-screen-xl mx-auto flex items-center w-full  text-white mt-24">
             {/* Left Side: Gradient Text & Buttons */}
             <div className="w-[50%] flex  " style={{ marginTop: '6rem' }}>
                 <div className="w-full max-w-[600px] h-auto">

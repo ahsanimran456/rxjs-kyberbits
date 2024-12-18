@@ -73,3 +73,88 @@
   margin-top: -20px; /* Center adjustment */
   margin-left: -20px;
 }
+
+
+
+
+
+
+
+/* Parent container class */
+.new-era-circle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: #000;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+/* Concentric Circle Lines inside the parent container */
+.new-era-circle .orbiting-circle {
+  position: absolute;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+.new-era-circle .orbiting-circle.outer {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.new-era-circle .orbiting-circle.mid {
+  width: 70%;
+  height: 70%;
+  top: 15%;
+  left: 15%;
+}
+
+.new-era-circle .orbiting-circle.inner {
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  left: 30%;
+}
+
+/* Center Lines inside the parent container */
+.new-era-circle .orbiting-center-lines {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.new-era-circle .orbiting-center-lines .line {
+  width: 120px;
+  height: 2px;
+  background: white;
+  margin: 15px 0;
+}
+
+/* Side Circles inside the parent container */
+.new-era-circle .orbiting-child {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+}
+
+.new-era-circle .orbiting-child.orbiting-left {
+  top: 50%;
+  left: 0;
+  transform: translate(-17%, -50%);
+}
+
+.new-era-circle .orbiting-child.orbiting-right {
+  top: 50%;
+  right: 0;
+  transform: translate(17%, -50%);
+}

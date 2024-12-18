@@ -5,8 +5,8 @@ import Image from 'next/image'; // Import Image from next/image
 import Link from 'next/link';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // For menu toggle
+  const [isScrolled, setIsScrolled] = useState(false); // For scroll detection
 
   // Detect scroll to update navbar style
   useEffect(() => {
@@ -37,11 +37,12 @@ const Navbar = () => {
   return (
     <div
       className={`sticky top-0 z-50 transition-all duration-300 ${
-        // isScrolled ? 'bg-black bg-opacity-90 shadow-md' : ' bg-opacity-50 backdrop-blur-md' 
-        ""
+        isScrolled
+          ? 'bg-black bg-opacity-70 shadow-md backdrop-blur-md'
+          : 'bg-transparent'
       } text-white`}
     >
-      <div className="max-w-screen-2xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-screen-2xl mx-auto px-6 py-2 flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <Image
@@ -59,7 +60,7 @@ const Navbar = () => {
             <Link
               key={index}
               href={`#${item}`}
-              className="text-[0.9rem] font-sans  relative text-white transition-all duration-300 
+              className="text-[0.9rem] font-sans relative text-white transition-all duration-300 
                          hover:text-transparent bg-clip-text 
                          hover:bg-gradient-to-r from-green-400 to-purple-600 
                          hover:translate-y-[-2px]"

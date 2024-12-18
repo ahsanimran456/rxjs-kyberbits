@@ -7,6 +7,10 @@ import Platform from "./CustomComponents/Platform";
 import Network from "./CustomComponents/Network";
 import VPN from "./CustomComponents/VPN";
 import Transforamtive from "./CustomComponents/Transformative";
+import KyberBitsTools from "./CustomComponents/KyberBitsTools";
+import Streamline from "./CustomComponents/Streamline";
+import NewEra from "./CustomComponents/NewEra";
+import Tokenomics from "./CustomComponents/Tokenomics";
 
 export default function Home() {
   return (
@@ -18,6 +22,11 @@ export default function Home() {
     <Network/>
     <VPN/>
     <Transforamtive/>
+    <KyberBitsTools/>
+    <Streamline/>
+    <NewEra/>
+    <Tokenomics/>
+
     </React.Fragment>
   );
 }

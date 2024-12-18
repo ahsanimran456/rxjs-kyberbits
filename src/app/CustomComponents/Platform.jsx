@@ -9,7 +9,7 @@ const Platform = () => {
     const words = `Transforming Asset Acquisition with the KyberBits Platform`
 
     return (
-        <section className="max-w-screen-xl mx-auto flex items-center w-full h-screen text-white mt-24">
+        <section className="max-w-screen-xl mx-auto flex items-center w-full  text-white mt-24">
 
 
             {/* Right Side: Gradient Text & Buttons */}
