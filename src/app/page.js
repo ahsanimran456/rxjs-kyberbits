@@ -11,6 +11,9 @@ import KyberBitsTools from "./CustomComponents/KyberBitsTools";
 import Streamline from "./CustomComponents/Streamline";
 import NewEra from "./CustomComponents/NewEra";
 import Tokenomics from "./CustomComponents/Tokenomics";
+import RoadMape from "./CustomComponents/RoadMape";
+import QNA from "./CustomComponents/QNA";
+import Footer from "./CustomComponents/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +29,9 @@ export default function Home() {
     <Streamline/>
     <NewEra/>
     <Tokenomics/>
+    <RoadMape/>
+    <QNA/>
+    <Footer/>
 
     </React.Fragment>
   );

@@ -6,14 +6,15 @@ import { TextGenerate } from '../../components/HeroSectionText';
 import { PrimaryBtn } from '../../components/PrimaryBtn';
 import OrbitingNewera from '@/components/NewEraOrbit';
 import { WorldMapDemo } from '@/components/MapViewCom';
+import { AppleCardsCarouselDemo } from '@/components/webslider';
 
-const Tokenomics = () => {
-    const words = `Shaping a New Era of Financial Interaction with KUSD`
+const RoadMape = () => {
 
     return (
-        <section className="max-w-screen-xl mx-auto flex w-full mt-32 px-6  text-white">
-                    <WorldMapDemo/>
+        <section className="max-w-screen-xl mx-auto flex w-full px-6  text-white">
+            <AppleCardsCarouselDemo/>
+
         </section>
     );
 };
-export default Tokenomics;
+export default RoadMape;

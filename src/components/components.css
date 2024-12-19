@@ -1,20 +1,19 @@
 .herosection-text {
-    display: inline-block; 
-    background-image: conic-gradient(
-      from 180deg at 50% 50%, 
-      #ff98e2, 
-      #ffc876 35.77deg, 
-      #79fff7 153.75deg, 
-      #9f53ff 258.75deg, 
-      #ff98e2 360deg
-    );
-    background-clip: text;
-    -webkit-background-clip: text; 
-    color: transparent; 
-    -webkit-text-fill-color: transparent;
-    line-height: inherit;
-  }
-
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    #f8c291, /* Soft peachy orange */
+    #f6e58d, /* Light yellow */
+    #ffffff /* White for a subtle finish */
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.4;
+  text-shadow: 0 0 10px rgba(248, 194, 145, 0.7),
+               0 0 20px rgba(246, 229, 141, 0.6);
+}
 
 
 
@@ -157,4 +156,23 @@
   top: 50%;
   right: 0;
   transform: translate(17%, -50%);
+}
+
+
+
+
+
+/* Animation for the background transition */
+.map-transition {
+  animation: backgroundEffect 5s infinite;
+}
+
+@keyframes backgroundEffect {
+  0% {
+    background-color: transparent;
+  }
+  
+  100% {
+    background-color: transparent;
+  }
 }

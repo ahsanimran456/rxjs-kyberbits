@@ -1,10 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
+  scroll-behavior: smooth;
+}
+
+/* Customize the scrollbar */
+body::-webkit-scrollbar {
+  width: 6px; /* Make the scrollbar thinner */
+}
+
+body::-webkit-scrollbar-track {
+  background: #202020; /* Dark gray track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #555; /* Gray scrollbar handle */
+  border-radius: 3px; /* Rounded corners for the handle */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #777; /* Slightly lighter gray on hover */
 }
 
 @layer base {

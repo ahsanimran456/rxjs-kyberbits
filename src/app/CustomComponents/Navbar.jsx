@@ -62,7 +62,7 @@ const Navbar = () => {
               href={`#${item}`}
               className="text-[0.9rem] font-sans relative text-white transition-all duration-300 
                          hover:text-transparent bg-clip-text 
-                         hover:bg-gradient-to-r from-green-400 to-purple-600 
+                         hover:bg-gradient-to-r from-[#f8c291] via-[#f6e58d] to-[#ffffff] 
                          hover:translate-y-[-2px]"
             >
               {item}
@@ -75,7 +75,7 @@ const Navbar = () => {
           {/* Join Presale Button */}
           <Link
             href="#presale"
-            className="bg-gradient-to-r from-green-400 to-purple-600 text-white py-2 px-6 rounded-2xl hover:opacity-90 transition-all duration-300"
+            className="bg-gradient-to-r from-[#f8c291] via-[#f6e58d] to-[#ffffff] text-black py-2 px-6 rounded-2xl text-sm font-semibold hover:scale-105 hover:shadow-lg transition-transform duration-300"
           >
             Join Presale
           </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
                 href={`#${item}`}
                 className="relative text-white transition-all duration-300 
                            hover:text-transparent bg-clip-text 
-                           hover:bg-gradient-to-r from-green-400 to-purple-600 
+                           hover:bg-gradient-to-r from-[#f8c291] via-[#f6e58d] to-[#ffffff] 
                            hover:translate-y-[-2px]"
               >
                 {item}
@@ -112,7 +112,7 @@ const Navbar = () => {
             {/* Join Presale Button */}
             <a
               href="#presale"
-              className="bg-gradient-to-r from-green-400 to-purple-600 text-white py-2 px-6 rounded-lg text-center"
+              className="bg-gradient-to-r from-[#f8c291] via-[#f6e58d] to-[#ffffff] text-black py-2 px-6 rounded-2xl text-sm font-semibold text-center hover:scale-105 hover:shadow-lg transition-transform duration-300"
             >
               Join Presale
             </a>
