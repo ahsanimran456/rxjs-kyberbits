@@ -62,8 +62,8 @@ const QNA = () => {
 
   return (
     <div className="min-h-screen bg-black text-white px-6 py-8">
-          <p className="font-bold text-xl md:text-4xl text-center dark:text-white text-white">
-                                  <TextGenerate words={'Q&A '} />
+          <p className="font-bold text-xl md:text-4xl text-center  text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
+          Q&A                 
            </p>
       <div className="space-y-4 max-w-screen-xl mx-auto  w-full px-16">
         {questions.map((item, index) => (

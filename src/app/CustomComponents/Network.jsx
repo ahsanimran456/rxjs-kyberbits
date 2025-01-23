@@ -20,9 +20,12 @@ const Network = () => {
             {/* Right Side: Gradient Text & Buttons */}
             <div className="w-[50%] flex flex-col mt-24 p-8 space-y-8">
 
-                <TextGenerate
+                {/* <TextGenerate
                     words={words}
-                />
+                /> */}
+                 <h1 className='text-4xl leading-normal font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600'>
+                 The KyberBits Network's initiative for banks and financial institutions is a significant step toward modernizing the global financial landscape.
+          </h1>
 
                 <p className="text-gray-500 font-sans  text-md">
                 The integration of KUSD tokens with the dollar-backed Tether/Circle (USDT/USDC) introduces stability to the crypto environment, closely mirroring real-world currency values. This strategic connection between KyberBits and KUSD aims to enhance the utility of the BITS token, drawing users to its dependable and promising features.

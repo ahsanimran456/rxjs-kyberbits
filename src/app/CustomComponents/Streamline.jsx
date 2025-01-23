@@ -30,9 +30,12 @@ const Streamline = () => {
             {/* Right Side: Gradient Text & Buttons */}
             <div className="w-[50%] flex flex-col  p-8 space-y-8">
 
-                <TextGenerate
+            <h1 className='text-4xl leading-normal font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600'>
+            Unleash your creativity and streamline your event management with KyberBits’ innovative platform features
+          </h1>
+                {/* <TextGenerate
                     words={words}
-                />
+                /> */}
 
                 <p className="text-gray-500 font-sans  text-md">
                     Imagine effortlessly generating NFT QR codes for music events, enabling secure ticketing, exclusive access, and unique fan experiences, all with a few clicks. Using our planned intuitive platform, anyone can design and deploy these NFTs without prior coding knowledge, thanks to AI-guided prompts and drag-and-drop functionalities. Beyond music events, the possibilities are limitless; from personalized event memorabilia to loyalty rewards and beyond, KyberBits will empower you to transform any idea into a blockchain reality, making advanced technology accessible to all.

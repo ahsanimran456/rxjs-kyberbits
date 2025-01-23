@@ -11,8 +11,8 @@ export function AppleCardsCarouselDemo() {
 
   return (
     (<div className="w-full h-full ">
-       <p className="font-bold text-xl md:text-4xl text-center dark:text-white text-white">
-                             <TextGenerate words={'Roadmap'} />
+       <p className=" md:text-4xl text-center dark:text-white text-white text-4xl leading-normal font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
+                             Roadmap
                      </p>
       <Carousel items={cards} />
     </div>)
