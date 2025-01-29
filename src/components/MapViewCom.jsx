@@ -9,8 +9,9 @@ export function WorldMapDemo() {
     return (
         (<div className=" w-full">
             <div className="max-w-7xl mx-auto text-center">
-                <p className="font-bold text-xl md:text-4xl text-center dark:text-white text-white">
-                        <TextGenerate words={'Tokenomics'} />
+                <p className="md:text-4xl text-center dark:text-white text-white text-4xl leading-normal font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
+                Tokenomics
+                        {/* <TextGenerate words={'Tokenomics'} /> */}
                 </p>
                 <p className="text-sm md:text-lg text-white max-w-2xl mx-auto py-4 mb-14">
                 The total supply of $BITS tokens will be determined by the amount sold during the presale, which will consistently represent 12.85% of the total supply. This approach ensures flexibility and scalability in managing the supply based on participant interest and investment.

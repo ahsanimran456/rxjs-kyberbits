@@ -15,12 +15,14 @@ const VPN = () => {
             {/* Right Side: Gradient Text & Buttons */}
             <div className="w-[50%] flex flex-col mt-24 p-8 space-y-8">
 
-                <TextGenerate
+                {/* <TextGenerate
                     words={words}
-                />
-
+                /> */}
+                <h1 className='text-4xl leading-normal font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600'>
+                    Decentralized VPN Redefining Internet Privacy and Freedom
+                </h1>
                 <p className="text-gray-500 font-sans  text-md">
-                The KyberBits ecosystem introduces a decentralized VPN (dVPN) service designed to enhance security, privacy, and access to an unrestricted internet. Unlike traditional centralized VPN providers that can log, censor, or restrict user data. Operating on a fully decentralized, peer-to-peer network, ensures that no single authority controls user traffic or data. This decentralized model leverages blockchain technology to offer unparalleled transparency, privacy, and resistance to censorship.
+                    The KyberBits ecosystem introduces a decentralized VPN (dVPN) service designed to enhance security, privacy, and access to an unrestricted internet. Unlike traditional centralized VPN providers that can log, censor, or restrict user data. Operating on a fully decentralized, peer-to-peer network, ensures that no single authority controls user traffic or data. This decentralized model leverages blockchain technology to offer unparalleled transparency, privacy, and resistance to censorship.
                 </p>
 
 

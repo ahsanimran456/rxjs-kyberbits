@@ -14,10 +14,12 @@ const Platform = () => {
 
             {/* Right Side: Gradient Text & Buttons */}
             <div className="w-[50%] flex flex-col mt-24 p-8 space-y-8">
-
-                <TextGenerate
+            <h1 className='text-4xl leading-normal font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600'>
+            Transforming Asset Acquisition with the KyberBits Platform
+          </h1>
+                {/* <TextGenerate
                     words={words}
-                />
+                /> */}
 
                 <p className="text-gray-500 font-sans  text-md">
                     Meet the KyberBits multi-chain crypto Wallet—a non-custodial, open-source powerhouse. Enjoy feeless $BITS transfers in-app, debit & virtual cards, seamless Apple Pay and Google Pay integration, a decentralized VPN (dVPN) service, and access to a tokenized asset marketplace, all conveniently housed in one application.

@@ -14,12 +14,14 @@ import Tokenomics from "./CustomComponents/Tokenomics";
 import RoadMape from "./CustomComponents/RoadMape";
 import QNA from "./CustomComponents/QNA";
 import Footer from "./CustomComponents/Footer";
+import FirstLayer from "./CustomComponents/FirstLayer";
 
 export default function Home() {
   return (
     <React.Fragment>
     <Navbar/>
-    <HeroSection/>
+    <FirstLayer/>
+    {/* <HeroSection/> */}
     <PowerHouse/>
     <Platform/>
     <Network/>
