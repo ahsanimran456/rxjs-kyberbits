@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Image from 'next/image'; // Import Image from next/image
 import Link from 'next/link';
+import logo from '../../../public/logo.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // For menu toggle
@@ -46,9 +47,9 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <Image
-            src="/qubtics.png"
-            alt="Qubetics Logo"
-            width={100}
+            src={logo}
+            alt="kyberbits Logo"
+            width={50}
             height={50}
             className="rounded-full"
           />

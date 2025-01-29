@@ -2,6 +2,7 @@
   "name": "rxjs-kyberbits",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -15,7 +16,8 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotted-map": "^2.2.3",
-    "framer-motion": "^11.14.4",
+    "framer-motion": "^11.18.2",
+    "gsap": "^3.12.7",
     "lucide-react": "^0.468.0",
     "motion": "^12.0.0-alpha.2",
     "next": "15.1.0",
