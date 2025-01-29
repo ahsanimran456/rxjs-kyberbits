@@ -22,7 +22,9 @@ export default function Home() {
     <Navbar/>
     <FirstLayer/>
     {/* <HeroSection/> */}
-    <PowerHouse/>
+    {/* <FirstLayyerHero/> */}
+
+    {/* <PowerHouse/> */}
     <Platform/>
     <Network/>
     <VPN/>

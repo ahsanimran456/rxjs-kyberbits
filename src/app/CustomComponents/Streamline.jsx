@@ -6,6 +6,7 @@ import MobileFrame from '@/components/MobileFrame';
 import { PrimaryBtn } from '@/components/PrimaryBtn';
 import Image from 'next/image';
 import src from '../../assests/img/vipcards.png';
+import saxzc from '../../../public/11.jpg'
 
 const Streamline = () => {
     const words = `Unleash your creativity and streamline your event management with KyberBits’ innovative platform features`
@@ -16,7 +17,7 @@ const Streamline = () => {
             <div className="w-[50%] flex p-8  " >
                 <div className="w-full max-w-[600px] h-auto">
                     <Image
-                        src={src}
+                        src={saxzc}
                         alt="Vip KyberBits"
                         className="object-cover rounded-lg"
                         width={600} // Provide actual image width

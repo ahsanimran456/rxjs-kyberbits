@@ -4,7 +4,7 @@ import mobile from '../../assests/img/powerhouse.svg';
 import { TextGenerate } from '@/components/HeroSectionText';
 import MobileFrame from '@/components/MobileFrame';
 import { PrimaryBtn } from '@/components/PrimaryBtn';
-
+import saxzc from '../../../public/0.jpg'
 const Network = () => {
     const words = `The KyberBits Network's initiative for banks and financial institutions is a significant step toward modernizing the global financial landscape.`
 
@@ -13,7 +13,7 @@ const Network = () => {
             {/* Left Side: Gradient Text & Buttons */}
             <div className="w-[50%] flex  " style={{ marginTop: '6rem' }}>
                 <div className="w-full max-w-[600px] h-auto">
-                    <MobileFrame src={mobile} />
+                    <MobileFrame src={saxzc} />
                 </div>
             </div>
 
