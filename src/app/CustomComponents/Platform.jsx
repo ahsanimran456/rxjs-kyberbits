@@ -5,7 +5,8 @@ import mobile from '../../../public/background.jpeg'
 import { TextGenerate } from '@/components/HeroSectionText';
 import MobileFrame from '@/components/MobileFrame';
 import { PrimaryBtn } from '@/components/PrimaryBtn';
-import saxzc from '../../../public/0.jpg'
+import saxzc from '../../../public/pappa.jpg'
+import Image from 'next/image';
 const Platform = () => {
     const words = `Transforming Asset Acquisition with the KyberBits Platform`
 
@@ -42,7 +43,14 @@ const Platform = () => {
             {/* Left Side: Gradient Text & Buttons */}
             <div className="w-[50%] flex  " style={{ marginTop: '6rem' }}>
                 <div className="w-full max-w-[600px] h-auto">
-                    <MobileFrame src={saxzc} />
+                     <Image
+                                src={saxzc}
+                                alt={ "Mobile Content"}
+                                className="object-contain w-full h-full mt-10"
+                                width={300}
+                                height={500}
+                              />
+                    {/* <MobileFrame src={saxzc} /> */}
                 </div>
             </div>
 
